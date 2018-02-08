@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>celular</title>
+    </head>
+    <style>
+    .celular{cursor:celular;}
+.pantalla{cursor:pantalla;}
+.teclar{cursor:teclar;}
+
+.celular{
+  width: 100px;
+  height: 200px;
+  border-radius:5px;
+  background:black;
+ 
+  
+}
+.pantalla{
+  width: 90px;
+  height: 150px;
+  border-radius:1px;
+  background:#A6ACAF;
+  margin-top:-180px;
+  margin-left:5px;
+ 
+
+}
+.teclar{
+  width: 20px;
+  height: 10px;
+  border-radius:4px;
+  background:#616A6B;
+  margin-left:35px;
+  margin-top:10px;
+  border:ridge white;
+
+
+  }
+
+.celular {
+  animation: anim1 1s forwards;
+}
+
+.pantalla {
+  animation: anim1 1s 1s forwards;
+}
+
+.teclar {
+  animation: anim1 1s 2s forwards;
+}
+  
+@keyframes anim1{ 
+  0%{
+    opacity:0;
+    transform:translateX(-200px)
+  }
+  
+  80% {
+    transform: rotate(0)
+  }
+  90%{
+    transform: rotate(-10deg)
+  }
+  
+  95%{
+    transform: rotate(10deg)
+  }
+  
+  100%{
+    opacity:1;
+    transform:rotate(0) translateX(0)
+  }
+}
+p{
+  font-size:30px;
+  font-family:Britannic;  
+}
+  
+  h5{
+    width: 50px;
+    height: 20px;
+    background: yellowgreen;
+     
+  }
+  
+
+
+    </style>
+    <body>
+            <div class="celular "></div>
+            <div class="pantalla  "></div>
+            <div class="teclar "></div>
+            <p>¡Phone</p>
+            <h5>$ 99.00</h5>
+            
+        
+    </body>
+</html>
